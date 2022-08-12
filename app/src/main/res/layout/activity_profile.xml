@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ProfileTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/profileTxt" />
+
+    <TextView
+        android:id="@+id/UrNameTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NameTxt" />
+
+    <EditText
+        android:id="@+id/EditTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:hint="@string/NameHint"/>
+
+    <TextView
+        android:id="@+id/UrEmailTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EmailTxt" />
+
+    <EditText
+        android:id="@+id/EditTxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:hint="@string/EmailHint" />
+
+    <ImageButton
+        android:id="@+id/imgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/alert_light_frame" />
+
+    <TextView
+        android:id="@+id/ImgBtnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnImgTxt" />
+
+    <Button
+        android:id="@+id/ChatBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChatBtn" />
+</LinearLayout>

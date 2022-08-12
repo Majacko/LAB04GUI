@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab04GUI</string>
+    <string name="profileTxt">Your Profile</string>
+    <string name="NameTxt">Your Name:</string>
+    <string name="EmailTxt">Your Email:</string>
+    <string name="PicTxt">Your Picture:</string>
+    <string name="btnImgTxt">Click the button above to take a picture.</string>
+    <string name="ChatBtn">Go to chat</string>
+    <string name="NameHint">Enter your name...</string>
+    <string name="EmailHint">Enter your email...</string>
+    <string name="SendBtn">Send</string>
+    <string name="ReceiveBtn">Receive</string>
+    <string name="SendTxtHint">Type Here</string>
+    <string name="SenderName">Puggy</string>
+    <string name="ReceiverName">Cathy</string>
+    <string name="TextViewMsg"> Test Message</string>
+</resources>
